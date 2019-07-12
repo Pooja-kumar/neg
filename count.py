@@ -1,7 +1,7 @@
-Number = int(input())
-Count = 0
-while(Number > 0):
-    Number = Number // 10
-    Count = Count + 1
+a=int(input())
+b=0
+while(a>0):
+	a=a // 10
+	b = b + 1
 
-print(Count)
+print(b)
